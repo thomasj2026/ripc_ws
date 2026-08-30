@@ -1,1 +1,1 @@
-This package will contain everything needed to operate and test RIP-C, Team Kanaloa's senior design USV for Fall 2025 - Spring 2026.
+This package contains the simulation environment to test motor control, semi-autonomy, and autonomy code for Team Kanaloa's RIP-C vessel for the academic year 2025-2026.
