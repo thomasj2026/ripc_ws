@@ -1,11 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
 
-  <!-- ===============================
-       RIPC Thruster Macro
-       - namespace: robot name or unique prefix
-       - name: 'left' or 'right'
-  ================================ -->
+  <!-- RIPC Thruster Macro -->
   <xacro:macro name="ripc_thruster" params="namespace name parent_link xyz">
 
     <!-- Unique propeller link -->
@@ -55,9 +51,7 @@
 
   </xacro:macro>
 
-  <!-- ===============================
-       Dual Thrusters Convenience Macro
-  ================================ -->
+  <!-- Dual Thrusters Convenience Macro -->
   <xacro:macro name="ripc_thrusters" params="namespace parent_link">
 
     <!-- Left thruster -->
