@@ -22,12 +22,12 @@
   <xacro:ripc_thrusters namespace="ripc_usv" parent_link="base_link"/>
   <xacro:usv_dynamics_gazebo namespace="ripc_usv"/>
 
-  <!-- ================== Base link / Dummy root ================== -->
+  <!-- Base link / Dummy root -->
   <link name="base_link">
     
   </link>
 
-  <!-- ================== Hull ================== -->
+  <!-- Hull -->
 
   <!-- Assume non-zero diagnoal values because of the hull's shape and mass distribution -->
   <!-- <link name="hull">
