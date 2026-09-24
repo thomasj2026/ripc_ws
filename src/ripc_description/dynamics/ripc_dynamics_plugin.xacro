@@ -5,7 +5,7 @@
 
     <gazebo>
 
-      <!-- ================= BUOYANCY (MONOHULL) ================= -->
+      <!-- Monohull Buyoancy -->
       <plugin filename="libSurface.so" name="vrx::Surface">
 
         <!-- Apply buoyancy to base_link -->
@@ -37,13 +37,13 @@
 
       </plugin>
 
-      <!-- ================= HYDRODYNAMICS ================= -->
+      <!-- Hydrodynamics -->
       <plugin filename="libSimpleHydrodynamics.so"
               name="vrx::SimpleHydrodynamics">
 
         <link_name>base_link</link_name>
 
-        <!-- Added mass (start simple) -->
+        <!-- Added mass -->
         <xDotU>0.0</xDotU>
         <yDotV>0.0</yDotV>
         <nDotR>0.0</nDotR>
