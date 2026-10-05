@@ -49,7 +49,7 @@
       </material>
     </visual>
     
-    <!-- SIMPLE collision box
+    <!-- Collision box -->
     <collision name="hull_collision_box">
       <origin xyz="0.125 0 0.05" rpy="0 0 0"/>
       <geometry>
